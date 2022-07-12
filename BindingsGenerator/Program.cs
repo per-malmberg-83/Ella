@@ -3,5 +3,5 @@ using BindingsGenerator;
 
 Console.WriteLine("Hello, World!");
 
-var generator = new GLFWGenerator();
+var generator = new GLGenerator();
 generator.Generate();

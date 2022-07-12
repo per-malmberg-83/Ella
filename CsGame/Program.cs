@@ -15,6 +15,7 @@ unsafe
     {
         throw new InvalidOperationException("FEEEL");
     }
+    Glfw.glfwMakeContextCurrent(window);
 }
 
 Console.WriteLine("hej");
